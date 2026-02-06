@@ -16,6 +16,7 @@ To pass the automated grader, your project must include:
 ### 🛠️ Step-by-Step Instructions
 #### Step 1: The Setup
 - Create your script.js file. Link it in your HTML right before the closing `</body>` tag.
+
 Why? This ensures the browser loads all the HTML elements before the JavaScript tries to find them.
 
 #### Step 2: The Logic
@@ -26,4 +27,9 @@ Think like a programmer:
 
 #### Step 3: Debugging
 Use console.log("Button was clicked!") inside your function. 
+
 Open your browser, right-click, select Inspect, and go to the Console tab. If you see your message, your "wiring" is correct!
+
+### 🌟 Going Above and Beyond (Bonus)
+- CSS Classes: Instead of changing styles directly in JS, try body.classList.toggle('dark-theme'). This is the professional way!
+- Persistence: Research localStorage. Can you make the site "remember" the user's choice even after they refresh the page?
