@@ -15,7 +15,7 @@ To pass the automated grader, your project must include:
 
 ### 🛠️ Step-by-Step Instructions
 #### Step 1: The Setup
--Create your script.js file. Link it in your HTML right before the closing `</body>` tag.
+- Create your script.js file. Link it in your HTML right before the closing `</body>` tag.
 Why? This ensures the browser loads all the HTML elements before the JavaScript tries to find them.
 
 #### Step 2: The Logic
